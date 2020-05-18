@@ -1,0 +1,87 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    font-family: 'Open Sans Condensed', sans-serif;
+}
+.container{
+    background-image: url(../img/reg.jpg);
+    background-size: 80% 118%;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.inicio{
+    background-color: rgba(221, 158, 33, 0.322);
+    z-index: 2;
+    height: 667px;
+    margin-top: -7%;
+}
+
+.prin-img{
+    text-align: center;
+    width: 100%;
+    margin-top: 4%;
+    padding-top: 6%;
+}
+.form{
+    background-color: #F4F4F4;
+    width: 30%;
+    margin-left: 34%;
+    text-align: center;
+    border-radius: 10px;
+    padding: 20px 10px ;
+    margin-top: -1%;
+}
+.form-cont{
+    color: #1F5B0E;
+}
+.form-cont h4{
+    font-size: 13px;
+    margin-right: 55%;
+}
+.form-cont input{
+    color: #1F5B0E;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-bottom: 2px solid #1F5B0E;
+    width: 75%;
+    height: 20px;
+    margin-bottom: 3%;
+    background-color: #F4F4F4;
+}
+.caja input{
+    width: 15px;
+    height: 5px;
+}
+
+.btn{
+    margin-top: 2%;
+    margin-bottom: 4%;
+}
+.btn-can{
+    margin-right: 3%;
+    background-color:rgba(195, 195, 195, 0.815);
+    font-size: 16px;
+    width: 35%;
+    height: 35px;
+    border-radius: 30px;
+    border-style: none;
+    color: #1F5B0E;
+}
+.btn-reg{
+    margin-right: 3%;
+    background-color:#1F5B0E;
+    font-size: 16px;
+    width: 35%;
+    height: 35px;
+    border-radius: 30px;
+    border-style: none;
+    color: white;
+}
+.login a{
+    color: #1F5B0E;
+    text-decoration: none;
+    font-size: 20px;
+}

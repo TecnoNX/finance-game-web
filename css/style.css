@@ -1,0 +1,74 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    font-family: 'Open Sans Condensed', sans-serif;
+}
+.container{
+    background-image: url(../img/finance.jpg);
+    background-size: 80% 118%;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.inicio{
+    background-color: rgba(254, 254, 255, 0.747);
+    z-index: 2;
+    height: 653px;
+    margin-top: -7%;
+}
+
+.prin-img{
+    text-align: center;
+    width: 100%;
+    margin-top: 7%;
+    padding-top: 6%;
+}
+.btn1{
+    margin-top: 3%;
+    text-align: center;
+}
+.btn1 button{
+    font-size: 16px;
+    color: rgb(48, 48, 129);
+    background-color: transparent;
+    border: transparent;
+}
+.btn1 i{
+    padding-top: 10px;
+    font-size: 30px;
+    color: rgb(63, 63, 185);
+}
+.btn1 :hover{
+    color: rgba(241, 180, 24, 0.904);
+}
+ 
+
+.btnreg{
+    text-align: right;
+    margin-right: 15%;
+    
+}
+.rojo{
+    display: inline-flex;
+    padding-right: 2%;
+}
+.rojo button{
+    background-color: transparent;
+    font-size: 13px;
+    border-radius: 30px;
+    color: red;
+    border-color: red;
+    padding: 4px 4px;
+}
+.btnini{
+    display: inline-flex;   
+}
+.btnini button{
+    background-color: transparent;
+    font-size: 13px;
+    border-radius: 30px;
+    color: green;
+    border-color: green;
+    padding: 4px 4px;
+}
