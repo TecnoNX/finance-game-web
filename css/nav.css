@@ -1,0 +1,61 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.navega{
+    display: inline-flex;
+    width: 100%;
+    background-color: #1E6000;
+}
+.logo{
+    margin-top: 2%;
+    margin-left: 8%;
+    margin-right: 10%;
+}
+.link li{
+    display: inline-block;
+    margin: 35px 45px 20px;
+}
+.nav-tex li a{
+    text-decoration: none;
+    color: white;
+    font-size: 19px;
+}
+.user{
+    display: inline-flex;
+    position: absolute;
+    margin:  -3% 48%;
+    width: 25%;
+}
+.user h4{
+    color: white;
+    font-size: 12px;
+    margin-left: 4%;
+    margin-top: 3%;
+}
+.user i{
+    margin: 5px 40px 30px;
+    font-size: 40px;
+    color: white;
+}
+
+/*Css de pag inicio o que es*/
+.container-1{
+    display: grid;
+    grid-template-columns: auto auto ;
+    margin: 2% ;
+    margin-left: 16%;
+}
+.text-1{
+    text-align: center;
+    width: 65%;
+    color: #113956;
+}
+.text-1 h4{
+    margin-top: 4%;
+    margin-bottom: 3%;
+    font-size: 22px;
+}
+.text-1 p{
+    font-size: 16px;
+}
