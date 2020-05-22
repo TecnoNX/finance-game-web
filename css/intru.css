@@ -1,0 +1,113 @@
+.container-3{
+    background-color: #E09E24;
+}
+
+.img-in img{
+    padding-top: 4%;
+    padding-left: 40%;
+    padding-bottom: 1%;
+    
+}
+.img-in p{
+    color: white;
+    font-size: 23px;
+   text-align: center;
+   margin-right: 6%;
+}
+.intro-text h2{
+    text-align: center;
+    color: white;
+    font-size: 40px;
+    margin-right: 6%;
+}
+.in-tex{
+    width: 30%;
+    padding: 1% 32%;
+    color: white;
+    text-align: center;
+    font-size: 18px;
+}
+.multi-caja h2{
+    color: white;
+    font-size: 25px;
+    padding: 2.5% 42%;
+}
+.cajas{
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    margin-left: 10%;
+}
+
+.caja1{
+    width: 55%;
+    color: white;
+    text-align: center;
+    margin-bottom: 17%;
+    opacity: 0.5;
+}
+.caja1 h3{
+    background-color: #113956;
+    font-size: 16px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    padding-bottom: 12px;
+    padding-top: 12px;
+}
+.caja1 img{
+    border-radius: 3px;
+    margin-bottom: -4px;
+}
+.caja1 p{
+    font-size: 13px;
+    padding-top: 25px ;
+    padding-bottom: 25px;
+    background-color: #1E5B0E;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+.cajas2{
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    margin-left: 10%;
+    padding-bottom: 3%;
+    opacity: 0.5;
+}
+.caja2{
+    width: 55%;
+    color: white;
+    text-align: center;
+}
+.caja2 h3{
+    background-color: #113956;
+    font-size: 16px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    padding-bottom: 12px;
+    padding-top: 12px;
+}
+.caja2 img{
+    border-radius: 3px;
+    margin-bottom: -4px;
+}
+.caja2 p{
+    font-size: 13px;
+    padding-top: 25px ;
+    padding-bottom: 25px;
+    background-color: #1E5B0E;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+ .caja1 i{
+     position: absolute;
+     font-size: 50px;
+     margin-top: 3%;
+     margin-left: -7.6%;
+     color: #113956d0;
+ }
+ .caja2 i{
+     position: absolute;
+    font-size: 50px;
+    margin-top: 3%;
+    margin-left: -7.6%;
+    color: #113956d2;
+}

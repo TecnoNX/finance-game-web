@@ -1,0 +1,42 @@
+.inicio-game{
+    background-color: #113956;
+    height: 33.6rem;
+}
+.img-game{
+    text-align: center;
+
+}
+.img-game img{
+    width: 46%;
+    height: 290px;
+    border-radius: 20px;
+    border-style: solid;
+    border-width: 8px ;
+    border-color: #1E6000;
+    margin-top: 6%;
+}
+.play{
+    float: right;
+    margin-right: 30%;
+    margin-top: 2.5%;
+    background-color: #113956;
+}
+.play button{
+    border-radius: 9px;
+    width: 140px;
+    background-color: transparent;
+    border: transparent;
+    color: white;
+    font-size: 17px;
+}
+.play a{
+    text-decoration: none;
+    color: white;
+}
+.play a:hover{
+    border-style: solid;
+    border-radius: 20px;
+}
+.play i{
+    margin-left: 16px;
+}
