@@ -1,6 +1,6 @@
-.inicio-game{
+.inicio-game, body{
     background-color: #113956;
-    height: 33.6rem;
+    height: 100%;
 }
 .img-game{
     text-align: center;

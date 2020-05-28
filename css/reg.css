@@ -3,7 +3,7 @@
     margin: 0;
 }
 body{
-    font-family: 'Open Sans Condensed', sans-serif;
+    font-family: Helvetica Neue,Helvetica,Arial,sans-serif; 
 }
 .container{
     background-image: url(../img/reg.jpg);
@@ -84,4 +84,18 @@ body{
     color: #1F5B0E;
     text-decoration: none;
     font-size: 20px;
+}
+@media screen and (max-width:840px){
+    .prin-img{
+        padding-top: 5%;
+       padding-bottom: 5%;
+    }
+    .prin-img img{
+        width: 290px;
+        height: 100px;
+    }
+    .form{
+        width: 63%;
+        margin-left: 17%;
+    }
 }

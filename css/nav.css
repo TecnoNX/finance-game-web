@@ -1,6 +1,7 @@
 *{
     padding: 0;
     margin: 0;
+    font-family: Helvetica Neue,Helvetica,Arial,sans-serif; 
 }
 .navega{
     display: inline-flex;
@@ -85,4 +86,32 @@
 .ico-2 a{
     text-decoration: none;
     color: white;
+}
+@media screen and (max-width:840px){
+    .container-1{
+        margin-left: 5%;
+        padding-top: 30%;
+        width: 100%;
+    }
+    .img-2{
+        margin-left:1%;
+        height: 30vh;
+    }
+    .img-2 img{
+        width: 100%;
+    }
+    .text-1{
+        width: 90%;
+        padding-top: 10%;
+        padding-bottom: 15%;
+    }
+    .text-2{
+        width: 50%;
+        margin-left: 26%;
+        padding-bottom: 8%;
+        padding-top: 6%;
+    }
+
+    /* navegacion */
+    
 }

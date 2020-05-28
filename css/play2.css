@@ -1,0 +1,50 @@
+.preg{
+    display: grid;
+    grid-template-rows: auto auto auto auto;
+    padding-left: 20%;
+    padding-top: 10%;
+}
+.preg button{
+    background-color: white;
+    color: black;
+    border-radius: 17px;
+    font-size: 18px;
+    margin-bottom: 5%;
+    color: #113956;
+    text-align: left;
+    width: 120%;
+}
+.img-1{
+    padding-left: 35%;
+    width: 90%;
+}
+.preg button:hover{
+    background-color: rgba(128, 128, 128, 0.699);
+    border: solid 2px;
+    border-color: white;
+}
+.minicu1 p{
+    position: absolute;
+    color: white;
+    padding: 49px 95px;
+    font-size: 16px;
+
+}
+.preg h4{
+    color: white;
+    font-size: 19px;
+    padding-top: 15%;
+    padding-bottom: 7%;
+}
+.preg span{
+    background-color: #c0c0c0;
+    float: left;
+    border-top-left-radius: 16px;
+    border-bottom-left-radius: 16px;
+    width: 35px;
+    text-align: center;
+}
+.preg a{
+    text-decoration: none;
+    color: #113956;
+}

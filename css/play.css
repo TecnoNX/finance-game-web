@@ -1,0 +1,93 @@
+.inicio-game, body{
+    background-color: #113956;
+    height: 100%;
+}
+
+.cuatro{
+    width: 76%;
+    height: 25rem;
+    border-radius: 24px;
+    border-style: solid;
+    border-width: 8px ;
+    border-color: #1E6000;
+    background-color: #393939;
+}
+.play-1{
+   padding-top: 3%;
+   padding-left: 20%;
+}
+.minicu1{
+    width: 50%;
+    float: left;
+}
+.minicu2{
+    width: 50%;
+    float: right;
+    margin-top: 15%;
+}
+
+.title-1{
+    color: white;
+    font-size: 17px;
+}
+.title-1 h4{
+    text-align: center;
+}
+.title-2, .title-3{
+    color: white;
+    text-align: center;
+
+}
+.title-2 p, .title-3 p{
+    font-size: 13px;
+    width: 90%;
+    margin-bottom: 4%;
+}
+.title-2 h4, .title-3 h4{
+    color: #113956;
+    background-color: #FFFFFF;
+    border-radius: 24px;
+    width: 55%;
+    margin-left: 21%;
+    margin-bottom: 4%;
+    font-size: 20px;
+}
+.title-1 img{
+    padding-top: 5%;
+    padding-left: 20%;
+    padding-bottom: 7%;
+}
+.title-1 h4{
+    width: 70%;
+    text-align: center;
+    padding-left: 17%;
+}
+.boton-play{
+    width: 100%;
+    display: grid;
+    grid-template-columns: auto auto;
+    text-align: center;
+    padding-top: 2%;
+}
+.play-boton button, .play-boton2 button{
+    color: white;
+    font-size: 18px;
+    background-color: transparent;
+    border-radius: 20px;
+    border: transparent;
+    width: 10%;
+}
+.play-boton i, .play-boton2 i{
+    color: white;
+    font-size: 16px;
+}
+.play-boton button:hover, .play-boton2 button:hover{
+    border: solid 10px #186fadec;
+    background-color: #16649bef;
+    width: 12.6%;
+}
+.play-boton i, .play-boton2 i{
+    position: absolute;
+    padding: 1px 50px;
+    margin-top: -18px;
+}
