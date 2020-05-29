@@ -1,0 +1,106 @@
+/*Css de pag inicio o que es*/
+.container-1{
+    display: grid;
+    grid-template-columns: auto auto ;
+    margin: 2% ;
+    margin-left: 16%;
+}
+.text-1{
+    text-align: center;
+    width: 65%;
+    color: #113956;
+}
+.text-1 h4{
+    margin-top: 4%;
+    margin-bottom: 3%;
+    font-size: 22px;
+}
+.text-1 p{
+    font-size: 16px;
+}
+.container-2{
+    background-color: #113956;
+    color: white;
+    height: 20rem;
+}
+.text-2{
+    text-align: center;
+    width: 30%;
+    margin-left: 36%;
+    padding-top: 3%;
+}
+.img-2{
+    margin-left: 30%;
+    padding-top: 2%;
+}
+.ico-2{
+    position: absolute;
+    background-color: #113956;
+    margin-left: 90%;
+    margin-top: -8%;
+}
+.ico-2 i{
+    font-size: 45px;
+}
+.ico-2 a{
+    text-decoration: none;
+    color: white;
+}
+.img-1 img{
+    width: 65%;
+}
+@media screen and (max-width:840px){
+    .container-1{
+        margin-left: 0%;
+        padding-top: 10%;
+        margin-top: 0%;
+        margin-bottom: 12%;
+        width: 100%;
+        background-color: white;
+
+    }
+    .img-1 img{
+        width: 110%;
+    }
+    .img-2{
+        margin-left:1%;
+        height: 30vh;
+    }
+    .img-2 img{
+        width: 100%;
+    }
+    .text-1{
+        width: 90%;
+        padding-top: 10%;
+        padding-bottom: 15%;
+    }
+    .text-2{
+        width: 50%;
+        margin-left: 26%;
+        padding-bottom: 8%;
+        padding-top: 6%;
+    }
+    .ico-2{
+        position: absolute;
+        background-color: #113956;
+        margin-left: 77%;
+        margin-top: -21%;
+    }
+    .text-2{
+        text-align: center;
+        width: 60%;
+        margin-left: 20%;
+        padding-top: 3%;
+    }
+    .container-2{
+        background-color: #113956;
+        color: white;
+        height: 21rem;
+    }
+    .text-1{
+        width: 90%;
+    }
+    body{
+        background-color: #113956;
+    }
+}

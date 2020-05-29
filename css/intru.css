@@ -21,8 +21,9 @@
     margin-right: 6%;
 }
 .in-tex{
-    width: 30%;
-    padding: 1% 32%;
+    width: 40%;
+    padding: 5%;
+    margin-left: 27.5%;
     color: white;
     text-align: center;
     font-size: 18px;
@@ -110,4 +111,59 @@
     margin-top: 3%;
     margin-left: -7.6%;
     color: #113956d2;
+}
+@media screen and (max-width:740px){
+    .img-in img{
+        padding-top: 4%;
+        padding-left: 20%;
+        padding-bottom: 1%;
+        
+    }
+    .img-in p{
+        color: white;
+        font-size: 130%;
+       text-align: center;
+       margin-right: 6%;
+    }
+    .intro-text h2{
+        text-align: center;
+        color: white;
+        font-size: 230%;
+        margin-right: 6%;
+    }
+    .in-tex{
+        width: 90%;
+        margin-left: 5%;
+    }
+    .cajas{
+        display: grid;
+        grid-template-columns: auto auto ;
+        margin-left: 10%;
+    }
+    .caja1{
+        width: 90%;
+        height: 35vh;
+    }
+    .caja1 i{
+        margin-left: -25%;
+    }
+    .cajas2{
+        display: grid;
+        grid-template-columns: auto auto ;
+        margin-left: 10%;
+    }
+    .caja2{
+        width: 90%;
+        height: 35vh;
+    }
+    .caja2 i{
+        margin-left: -25%;
+    }
+    .container-3{
+        height: 100rem;
+    }
+    .multi-caja h2{
+        font-size: 22px;
+        margin-bottom: 4%;
+    }
 }

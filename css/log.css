@@ -5,7 +5,7 @@
 body{
     font-family: Helvetica Neue,Helvetica,Arial,sans-serif; 
 }
-.container{
+.container, body{
     background-image: url(../img/log.jpg);
     background-size: 80% 118%;
     background-repeat: no-repeat;
@@ -14,7 +14,7 @@ body{
 .inicio{
     background-color: rgba(176, 104, 15, 0.514);
     z-index: 2;
-    height: 667px;
+    height: 107vh;
     margin-top: -7%;
 }
 

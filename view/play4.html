@@ -10,37 +10,50 @@
     <title>Play-2 - Finance Game</title>
 </head>
 <body>
-    <nav class="navega">
-        <div class="logo"><a href="../index.html">
-            <img src="../img/logo.png" style="width: 150px;" alt="" srcset=""></a>
+     <!-- Navegacion responsiva -->
+     <header>
+        <div class="inner-header">
+            <a href="../index.html">
+           <img class="logo" src="../img/logo.png" alt=""></a>
+
+            <input type="checkbox"  id="chk">
+            <label for="chk" class="mostrar-menu">
+            <i class="fas fa-bars"></i>
+            </label>
+            
+            <nav class="nav-links">
+                <ul class="var">
+                    <li>
+                        <a href="inicio.html">Que es?</a>
+                    </li>
+                    <li>
+                        <a href="intru.html">Intrucciones</a>
+                    </li>
+                    <li>
+                        <a href="game.html">Jugar</a>
+                    </li>
+                    <li>
+                        <a href="#">150 XP</a>
+                    </li>
+                
+                    <li>
+                        <img class="user" src="../img/user.jpg" style="width: 50px; height: 45px; border-radius: 90px;" alt="">
+                    </li>
+                    <li>
+                        <h6 class="usertex"><a href="#">Felipe Luis </a></h6>
+                    </li>
+                    <li>
+                        <a href="../index.html">
+                            <i class="fas fa-sign-out-alt"></i></a>
+                    </li>
+                
+               <label for="chk" class="ocultar-menu">
+                <i class="fas fa-times"></i>
+               </label>
+            </ul>
+            </nav>
         </div>
-        <div class="link">
-        <ul>
-            <div class="nav-tex">
-            <li>
-                <a href="inicio.html">Que es?</a>
-            </li>
-            <li>
-                <a href="intru.html">Intrucciones</a>
-            </li>
-            <li>
-                <a href="game.html">Jugar</a>
-            </li>
-            <li>
-                <a href="#">150 XP</a>
-            </li>
-        </div>
-            <div class="user">
-                <div class="img">
-                    <img src="../img/user.jpg" style="width: 50px; height: 45px; border-radius: 90px;" alt="" srcset="">
-                </div>
-                <h4>Felipe Luis</h4>
-                <a href="../index.html">
-                <i class="fas fa-sign-out-alt"></i></a>
-            </div>
-        </ul>
-    </div>
-    </nav>
+    </header>
 
     <!--Play pag.-->
 
@@ -80,3 +93,7 @@
         </div>
     </div>
     </div>
+    <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+</body>
+
+</html>
