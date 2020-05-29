@@ -1,0 +1,27 @@
+.minicu1 p{
+    color: white;
+    font-size: 16px;
+    text-align: center;
+    width: 75%;
+    margin-left: 8%;
+    margin-top: 8%;
+}
+.minicu1 img{
+    width: 75%;
+    margin-left: 8%;
+    margin-bottom: 8%;
+}
+.minicu2 p{
+    color: white;
+    font-size: 16px;
+    text-align: center;
+    width: 73%;
+    margin-left: 6%;
+    margin-bottom: 10%;
+}
+.minicu2 img{
+    width: 49%;
+    margin-left: 18%;
+    margin-top: -25%;
+    margin-bottom: 12%;
+}

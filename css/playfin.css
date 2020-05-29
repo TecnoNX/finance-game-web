@@ -8,9 +8,9 @@
     height: 25rem;
     border-radius: 24px;
     border-style: solid;
-    border-width: 12px ;
+    border-width: 13px ;
     border-color: #1E6000;
-    background-color: #393939;
+    background-color: #ffffff;
 }
 .play-1{
    padding-top: 3%;
@@ -83,6 +83,9 @@
     border: transparent;
     width: 10%;
 }
+.play-boton button{
+    display: none;
+}
 .play-boton i, .play-boton2 i{
     color: white;
     font-size: 16px;
@@ -96,4 +99,34 @@
     position: absolute;
     padding: 1px 50px;
     margin-top: -18px;
+}
+.meda{
+    width: 50%;
+    margin-left: 30%;
+    margin-top: 15%;
+}
+.punto{
+    text-align: center;
+    color: #113956;
+    font-size: 16px;
+    margin-top: -10%;
+}
+.nota{
+    text-align: center;
+    color: #113956;
+    font-size: 24px;
+    margin-top: 2%;
+    margin-bottom: 5%;
+}
+.ex{
+    text-align: center;
+    color: #1e5b0e;
+    font-size: 400%;
+    margin-bottom: 4%;
+}
+.ex2{
+    width: 75%;
+    color: #113956;
+    margin-left: 13%;
+    text-align: center;
 }
