@@ -130,3 +130,61 @@
     margin-left: 13%;
     text-align: center;
 }
+@media screen and (max-width:850px){
+.cuatro{
+    width: 110%;
+    height: 25rem;
+    margin-left: -14%;
+    margin-top: 10%;
+}
+.ex{
+    text-align: center;
+    color: #1e5b0e;
+    font-size: 200%;
+    margin-bottom: 4%;
+    margin-left: -45%;
+}
+.ex2{
+    width: 95%;
+    margin-left: -31%;
+    text-align: none;
+}
+.punto{
+   margin-left: -40%;
+}
+.nota{
+    margin-left: -40%;
+}
+.play-boton button, .play-boton2 button{
+    margin-left: -20%;
+}
+.play-boton i, .play-boton2 i{
+    color: white;
+    font-size: 16px;
+}
+.play-boton button:hover, .play-boton2 button:hover{
+    border: solid 10px #186fadec;
+    background-color: #16649bef;
+    width: 12.6%;
+}
+.play-boton i, .play-boton2 i{
+    position: absolute;
+    padding: 1px 40px;
+    margin-top: -18px;
+}
+.play-boton i, .play-boton2 i{
+    color: white;
+    font-size: 13px;
+}
+.play-boton button:hover, .play-boton2 button:hover{
+    border: solid 5px #186fadec;
+    background-color: #16649bef;
+    width: 50%;
+    padding-right: 26%;
+}
+.play-boton i, .play-boton2 i{
+    position: absolute;
+    padding: 1px 74px;
+    margin-top: -15px;
+}
+}

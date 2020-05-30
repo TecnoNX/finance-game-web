@@ -18,6 +18,9 @@
     padding-left: 35%;
     width: 90%;
 }
+.img-1 img{
+    width: 65%;
+}
 .preg button:hover{
     background-color: rgba(128, 128, 128, 0.699);
     border: solid 2px;
@@ -47,4 +50,28 @@
 .preg a{
     text-decoration: none;
     color: #113956;
+}
+@media screen and (max-width:840px){
+    
+    .preg h4{
+        font-size: 120%;
+        margin-bottom: 40%;
+    }
+    .preg button{
+        font-size: 100%;
+        width: 180%;
+        margin-left: -20%;
+    }
+    .minicu1 p{
+        padding-top: 25%;
+        margin-left: -16%;
+    }
+    .img-1{
+        width: 100%;
+        margin-top: 80%;
+        margin-left: 20%;
+    }
+    .inicio-game{
+        margin-top: 10%;
+    }
 }

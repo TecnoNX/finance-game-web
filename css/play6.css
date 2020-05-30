@@ -25,3 +25,23 @@
     margin-top: -25%;
     margin-bottom: 12%;
 }
+@media screen and (max-width:850px){
+    .minicu1 p{
+        font-size: 13px;
+        margin-top: 50%;
+        width: 90%;
+    }
+    .minicu1 img{
+        width: 100%;
+    }
+    .minicu2 p{
+        font-size: 13px;
+        width: 90%;
+    }
+    .minicu2 img{
+        width: 70%;
+    }
+    .inicio-game{
+        margin-top: 8%;
+    }
+}
